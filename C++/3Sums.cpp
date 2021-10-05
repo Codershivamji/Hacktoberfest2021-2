@@ -74,8 +74,10 @@ int main()
     cin >> n;
     for (int i = 0; i < n; i++)
     {
+        cout<<"\n Enter the "<<i+1<<"number of element ......";
         cin >> a;
         vect.push_back(a);
+        cout<<"\n ............\tthe number is entered\t...........";
     }
 
     vector<vector<int>> result = threeSum(vect);
